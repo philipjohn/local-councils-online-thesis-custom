@@ -3,3 +3,10 @@ File:			custom.css
 Description:	Custom styles for Thesis
 More Info:		http://diythemes.com/thesis/rtfm/custom-css/
 */
+
+/* 3col widgetised footer */
+.custom #footer-widget-block { text-align:left; overflow:hidden; }
+.custom .footer-widgets { width:33%; float:left; }
+.custom .my-footer-one {}
+.custom .my-footer-two {}
+.custom .my-footer-three {}
