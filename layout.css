@@ -536,7 +536,7 @@ ul.sidebar_list { padding-top: 2.2em; }
 body { color: #111111; background: #FF7936; }
 #page { background: #FFFFFF; }
 a, h2 a:hover, #logo a:hover { color: #2361A1; }
-#logo, #logo a { color: #111111; }
+#logo, #logo a { color: #F0F0F0; }
 #tagline { color: #888888 }
 h1, h2, h2 a { color: #111111; }
 .headline_meta, .headline_meta a, .teaser_author, .teaser_date, .teaser .edit_post, .teaser_author a, .teaser_comments, .teaser_category, .teaser .edit_post a { color: #888888; }
