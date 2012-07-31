@@ -276,20 +276,20 @@ dl#comment_list { border-top: 1px dotted #bbb; }
 #footer a { border-bottom: 1px solid #ccc; }
 
 /*---:[ self-clearing floats from Dan Cederholm ]:---*/
-.menu:after, #content_box:after, #sidebars:after, .format_text:after, .teasers_box:after, .prev_next:after, ul.sidebar_list:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }/*---:[ core layout elements ]:---*/
-#container { width: 118.8em; margin: 0 auto; }
+.menu:after, #content_box:after, #sidebars:after, .format_text:after, .teasers_box:after, .prev_next:after, ul.sidebar_list:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }*{margin:0;padding:0;}h1,h2,h3,h4,h5,h6{font-weight:normal;}table{border-collapse:collapse;border-spacing:0;}img,abbr,acronym,fieldset{border:0;}code{line-height:1em;}sub,sup{line-height: 0.5em;}q:before,q:after{content:'';}body{font-size:10px;}/*---:[ core layout elements ]:---*/
+#container { width: 99.3em; margin: 0 auto; }
 	#page { padding: 2.2em; }
 		#header, #footer { padding-right: 1.1em; padding-left: 1.1em; }
-		#content_box { width: 100%; background: url('../lib/images/dot-ddd.gif') 70.8em 0 repeat-y; }
+		#content_box { width: 100%; background: url('../lib/images/dot-ddd.gif') 51.3em 0 repeat-y; }
 		.no_sidebars { background: none !important; }
 			
-			#content { width: 70.8em; float: left; }
+			#content { width: 51.3em; float: left; }
 			.no_sidebars #content { width: 100%; }
 				.post_box, .teasers_box, .full_width #content_box .page { margin: 0 2.2em 0 1.1em; }
 					.full_width #content_box .page { width: auto; }
 				.no_sidebars .post_box { margin: 0 1.1em; }
-				.teasers_box { width: 67.5em; }
-					.teaser { width: 32.7em; }
+				.teasers_box { width: 48em; }
+					.teaser { width: 22.9em; }
 				#archive_intro, .prev_next { padding-right: 2.2em; padding-left: 1.1em; }
 			#sidebars { width: 43.5em; border: 0; float: right; }
 				#sidebar_1 { width: 21.7em; border-style: dotted; border-width: 0 0.1em 0 0; float: left; clear: left; }
@@ -507,7 +507,6 @@ input, textarea { font-family: Georgia, "Times New Roman", Times, serif; }
 
 /*---:[ footer styles ]:---*/
 #footer p { font-size: 1.2em; line-height: 1.667em; }
-ul.sidebar_list { padding-top: 2.2em; }
 
 /*---:[ teaser styles ]:---*/
 .teaser h2 { font-size: 1.6em; line-height: 1.375em; }
@@ -533,29 +532,29 @@ ul.sidebar_list { padding-top: 2.2em; }
 .teaser .format_teaser .post_image_link img.frame { padding: 0.333em; border-width: 0.083em; }
 
 /*---:[ layout colors ]:---*/
-body { color: #111111; background: #FF7936; }
-#page { background: #FFFFFF; }
-a, h2 a:hover, #logo a:hover { color: #2361A1; }
-#logo, #logo a { color: #F0F0F0; }
-#tagline { color: #888888 }
-h1, h2, h2 a { color: #111111; }
-.headline_meta, .headline_meta a, .teaser_author, .teaser_date, .teaser .edit_post, .teaser_author a, .teaser_comments, .teaser_category, .teaser .edit_post a { color: #888888; }
-.headline_meta a:hover, .teaser_author a:hover, .teaser_comments:hover, .teaser_category:hover, .teaser .edit_post a:hover { color: #111111; }
-.sidebar h3 { color: #555555; }
-.image_box { background: #EEEEEE; }
-.video_box { background: #000000; }
-.custom_box { background: #EEEEEE; }
-#footer, #footer a { color: #888888; }
-#footer a:hover { color: #111111; }
+body { color: #111; background: #fff; }
+#page { background: #fff; }
+a, h2 a:hover, #logo a:hover { color: #2361a1; }
+#logo, #logo a { color: #111; }
+#tagline { color: #888 }
+h1, h2, h2 a { color: #111; }
+.headline_meta, .headline_meta a, .teaser_author, .teaser_date, .teaser .edit_post, .teaser_author a, .teaser_comments, .teaser_category, .teaser .edit_post a { color: #888; }
+.headline_meta a:hover, .teaser_author a:hover, .teaser_comments:hover, .teaser_category:hover, .teaser .edit_post a:hover { color: #111; }
+.sidebar h3 { color: #555; }
+.image_box { background: #eee; }
+.video_box { background: #000; }
+.custom_box { background: #eee; }
+#footer, #footer a { color: #888; }
+#footer a:hover { color: #111; }
 
 /*---:[ nav colors ]:---*/
-.menu, .menu a, .menu li ul { border-color: #DDDDDD; }
-.menu .current a, .menu .current-cat a, .menu .current-menu-item a { border-bottom-color: #FFFFFF; }
-.menu ul .current a, .menu ul .current-cat a, .menu .current ul a, .menu .current-cat ul a, .menu ul .current-menu-item a { border-bottom-color: #DDDDDD; }
-.menu a, .menu .current ul a, .menu .current-cat ul a, .menu .current-menu-item ul a { color: #111111; background: #EFEFEF; }
-.menu a:hover, .menu .current ul a:hover, .menu .current-cat ul a:hover, .menu .current-parent a:hover, .menu .current-menu-item ul a:hover, .menu .current-menu-ancestor a:hover { color: #111111; background: #DDDDDD; }
-.menu .current a, .menu .current a:hover, .menu .current-cat a, .menu .current-cat a:hover, .menu .current-menu-item a, .menu .current-menu-item a:hover { color: #111111; background: #FFFFFF; }
-.menu .current-parent > a, .menu .current-cat-parent > a, .menu .current-menu-ancestor > a { color: #111111; background: #F0EEC2; }
+.menu, .menu a, .menu li ul { border-color: #ddd; }
+.menu .current a, .menu .current-cat a, .menu .current-menu-item a { border-bottom-color: #fff; }
+.menu ul .current a, .menu ul .current-cat a, .menu .current ul a, .menu .current-cat ul a, .menu ul .current-menu-item a { border-bottom-color: #ddd; }
+.menu a, .menu .current ul a, .menu .current-cat ul a, .menu .current-menu-item ul a { color: #111; background: #efefef; }
+.menu a:hover, .menu .current ul a:hover, .menu .current-cat ul a:hover, .menu .current-parent a:hover, .menu .current-menu-item ul a:hover, .menu .current-menu-ancestor a:hover { color: #111; background: #ddd; }
+.menu .current a, .menu .current a:hover, .menu .current-cat a, .menu .current-cat a:hover, .menu .current-menu-item a, .menu .current-menu-item a:hover { color: #111; background: #fff; }
+.menu .current-parent > a, .menu .current-cat-parent > a, .menu .current-menu-ancestor > a { color: #111; background: #f0eec2; }
 
 /*---:[ border package ]:---*/
 #header { border-width: 0 0 0.3em 0; }
@@ -568,3 +567,22 @@ h1, h2, h2 a { color: #111111; }
 /*---:[ custom header image ]:---*/
 #header { height: 16.3em; padding: 0; background-image: url('http://localcouncilsonline.dev/wp-content/uploads/2012/07/IMG_00013.jpg'); background-repeat: no-repeat; background-size: 42.7em 16.3em; }
 #logo a { display: block; width: 11.861em; height: 4.528em; text-indent: -9999px; outline: none; }
+/*---:[ responsive resets ]:---*/
+@media screen and (max-width: 1037px) {
+	.full_width > .page, #container, #page, #column_wrap, #content, #sidebars, #sidebar_1, #sidebar_2 { width: 62.1em; }
+	#content_box, #column_wrap { background: none; }
+	#sidebar_1 { border: 0; }
+	#column_wrap, #content, #sidebars, #sidebar_1, #sidebar_2, .teaser { float: none; }
+	#comments { margin-right: 0; }
+	#multimedia_box #image_box img { height: auto; width: 59.3em; }
+	.teasers_box { margin: 0 1.1em; padding-bottom: 0; }
+	.teasers_box, .teaser { width: auto; }
+	.teaser { padding-bottom: 2.2em; }
+	.custom .wp-caption { width: auto!important; } /* overrides inline style */
+}
+
+@media screen and (max-width: 648.1px) {
+	.full_width > .page, #page { padding: 0; }
+	.full_width > .page, #container, #page, #column_wrap, #content, #multimedia_box #image_box img, #sidebars, #sidebar_1, #sidebar_2 { width: 100%; }
+	.custom img.alignleft, .custom img.left, .custom img.alignright, .custom img.right, .custom img[align="left"], .custom img[align="right"] { display: block; margin-left: auto; margin-right: auto; float: none; clear: both; }
+	.footer-widgets { width: 100% !important; }}
