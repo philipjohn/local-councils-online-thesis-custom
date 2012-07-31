@@ -7,6 +7,7 @@
  * Filters: http://diythemes.com/thesis/rtfm/customizing-with-filters/
  * Custom Loop API: http://diythemes.com/thesis/rtfm/custom-loop-api/
 
+<<<<<<< HEAD
 ---:[ place your custom code below this line ]:---*/
 
 // Initial sanity check
@@ -197,3 +198,6 @@ function my_widgetized_footer() { ?>
 	}
 add_action('thesis_hook_footer','my_widgetized_footer','1');
 
+=======
+---:[ place your custom code below this line ]:---*/
+>>>>>>> d3ce3f29b84f08396643e101384732b2db5c8702
